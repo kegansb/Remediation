@@ -1,0 +1,56 @@
+{
+    "Malware": {
+        "containment": [
+            "Isolate infected systems",
+            "Block malicious IPs"
+        ],
+        "eradication": [
+            "Remove malicious files",
+            "Update antivirus signatures"
+        ],
+        "recovery": [
+            "Restore from clean backups",
+            "Verify system integrity"
+        ],
+        "preventive": [
+            "Deploy endpoint protection",
+            "Conduct security training"
+        ]
+    },
+    "Phishing": {
+        "containment": [
+            "Block malicious email domains",
+            "Disable compromised accounts"
+        ],
+        "eradication": [
+            "Remove phishing emails from inboxes",
+            "Reset affected credentials"
+        ],
+        "recovery": [
+            "Notify users of phishing attempt",
+            "Restore account access"
+        ],
+        "preventive": [
+            "Enhance email filters",
+            "Implement DMARC policies"
+        ]
+    },
+    "Ransomware": {
+        "containment": [
+            "Disconnect affected systems",
+            "Block attacker communication"
+        ],
+        "eradication": [
+            "Remove ransomware payload",
+            "Decrypt files if possible"
+        ],
+        "recovery": [
+            "Restore from offline backups",
+            "Validate decryption"
+        ],
+        "preventive": [
+            "Improve backup frequency",
+            "Restrict execution of unknown files"
+        ]
+    }
+}
