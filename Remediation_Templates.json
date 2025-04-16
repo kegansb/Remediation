@@ -32,7 +32,8 @@
         ],
         "preventive": [
             "Enhance email filters",
-            "Implement DMARC policies"
+            "Implement DMARC policies",
+            "Conduct security training"
         ]
     },
     "Ransomware": {
@@ -50,7 +51,28 @@
         ],
         "preventive": [
             "Improve backup frequency",
-            "Restrict execution of unknown files"
+            "Restrict execution of unknown files",
+            "Verify security appliance rules"
         ]
+    },
+    "Compromise": {
+        "containment": [
+            "Disconnect affected account",
+            "Sign out all user sessions",
+            "Block attacker communication"
+        ],
+        "eradication": [
+            "Remove malicious rules",
+        ],
+        "recovery": [
+            "Reset or set-up MFA",
+            "Reset user account password",
+            "Activate user account"
+        ],
+        "preventive": [
+            "Improve password complexity",
+            "Verify account delegation levels",
+            "Disable unapproved authentification methods",
+            "Conduct security training"
     }
 }
