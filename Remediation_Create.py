@@ -60,10 +60,12 @@ def create_remediation_doc(filename, incident_data):
     section = doc.sections[0]
     header = section.header
     header_paragraph = header.paragraphs[0]
+    # Insert your logo path and name here
     logo_path = "logo.png"
     create_default_logo(logo_path)
     if os.path.exists(logo_path):
         run = header_paragraph.add_run()
+        # Adjust your logo size here
         run.add_picture(logo_path, width=Inches(1.0))
         header_paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
     else:
